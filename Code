@@ -1,0 +1,37 @@
+#GFG_Mandatory_task
+
+print("calculator!")
+print("1: ADD")
+print("2: SUBTRACT")
+print("3: DIVIDE")
+print("4: MULTIPLY")
+print("5: REMAINDER")
+print("6:POWER")
+print("7: Integral Division")
+a=int(input("Enter your Option:"))
+f=int(input("enter your first number:"))
+s=int(input("enter your second number:"))
+if a==1:
+    sum=f+s
+    print("Sum of numbers:",sum)
+elif a==2:
+    sub=f-s
+    print("Subtraction of numbers:",sub)
+elif a==3:
+    Divide=f/s
+    print("division of numbers:",Divide)
+elif a==4:
+    mult=f*s
+    print("Product of numbers:",mult)
+elif a==5:
+    rem=f%s
+    print("remainder of numbers:",rem)
+elif a==6:
+    power=f**s
+    print("result:",power)
+elif a==7:
+    integral=f//s
+    print("Integal division of two numbers:",integral)
+else:
+    print("Invalid option")
+
